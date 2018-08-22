@@ -20,6 +20,8 @@ namespace Ticketing
         const decimal mdecDiscount = 5.0m; 
         const decimal mdecDiscount = 5.0m;
         const decimal mdecDiscount2 = 10.00m; 
+        const decimal mdecDiscount = 5.0m;
+        const decimal mdecDiscount2 = 10.00m; 
 
         private int Section
         {

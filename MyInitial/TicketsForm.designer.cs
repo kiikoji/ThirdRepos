@@ -40,6 +40,7 @@
             this.cmdCalculate = new System.Windows.Forms.Button();
             this.radBack = new System.Windows.Forms.RadioButton();
             this.chkDiscount2 = new System.Windows.Forms.CheckBox();
+            this.chkDiscount2 = new System.Windows.Forms.CheckBox();
             this.grpSection.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -164,11 +165,24 @@
             this.chkDiscount2.UseVisualStyleBackColor = true;
             this.chkDiscount2.CheckedChanged += new System.EventHandler(this.chkDiscount2_CheckedChanged);
             // 
+            // chkDiscount2
+            // 
+            this.chkDiscount2.AutoSize = true;
+            this.chkDiscount2.Location = new System.Drawing.Point(231, 87);
+            this.chkDiscount2.Name = "chkDiscount2";
+            this.chkDiscount2.Size = new System.Drawing.Size(50, 16);
+            this.chkDiscount2.TabIndex = 11;
+            this.chkDiscount2.Text = "Child";
+            this.chkDiscount2.UseVisualStyleBackColor = true;
+            this.chkDiscount2.CheckedChanged += new System.EventHandler(this.chkDiscount2_CheckedChanged);
+            // 
             // TicketsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(608, 411);
+            this.ClientSize = new System.Drawing.Size(608, 411);
+            this.Controls.Add(this.chkDiscount2);
             this.ClientSize = new System.Drawing.Size(608, 411);
             this.Controls.Add(this.chkDiscount2);
             this.Controls.Add(this.cmdCalculate);
@@ -201,6 +215,7 @@
         private System.Windows.Forms.GroupBox grpSection;
         private System.Windows.Forms.Button cmdCalculate;
         private System.Windows.Forms.RadioButton radBack;
+        private System.Windows.Forms.CheckBox chkDiscount2;
         private System.Windows.Forms.CheckBox chkDiscount2;
     }
 }
