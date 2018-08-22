@@ -84,6 +84,7 @@
             this.chkDiscount.TabIndex = 5;
             this.chkDiscount.Text = "Senior / Student";
             this.chkDiscount.UseVisualStyleBackColor = true;
+            this.chkDiscount.CheckedChanged += new System.EventHandler(this.chkDiscount_CheckedChanged);
             // 
             // radBalcony
             // 
@@ -148,6 +149,7 @@
             this.chkDiscount2.TabIndex = 11;
             this.chkDiscount2.Text = "Child";
             this.chkDiscount2.UseVisualStyleBackColor = true;
+            this.chkDiscount2.CheckedChanged += new System.EventHandler(this.chkDiscount2_CheckedChanged);
             // 
             // TicketsForm
             // 
