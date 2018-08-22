@@ -79,6 +79,13 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TicketPrice.cs" />
+    <Compile Include="TicketsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TicketsForm.designer.cs">
+      <DependentUpon>TicketsForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AboutBox1.resx">
       <DependentUpon>AboutBox1.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -101,6 +108,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="TicketsForm.resx">
+      <DependentUpon>TicketsForm.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="app.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
